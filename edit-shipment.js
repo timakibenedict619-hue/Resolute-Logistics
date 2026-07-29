@@ -138,7 +138,11 @@ form.addEventListener("submit", async (e) => {
 
             description: document.getElementById("description").value,
 
-            updatedAt: serverTimestamp(),
+importantUpdate: document.getElementById("importantUpdate").value,
+
+updatedAt: serverTimestamp(),
+
+            
 
             trackingHistory: arrayUnion(historyItem)
 
